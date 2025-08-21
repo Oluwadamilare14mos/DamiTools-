@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DamiTools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/dami-logo.png" alt="DamiTools Logo" class="logo">
+    <h1>Welcome to DamiTools</h1>
+    <nav>
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('products')">Products</button>
+      <button onclick="showPage('support')">Help & Support</button>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section id="home" class="page active">
+      <h2>Home</h2>
+      <p>Your one-stop shop for electrical tools & lighting.</p>
+    </section>
+
+    <section id="products" class="page">
+      <h2>Our Products</h2>
+      <div class="grid">
+        <div class="item">
+          <img src="https://via.placeholder.com/150" alt="Bulb">
+          <p>LED Bulb – ₦500</p>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/150" alt="Switch">
+          <p>Switch – ₦1,200</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="page">
+      <h2>Help & Support</h2>
+      <p>Contact us at: <strong>+234-XXXXXXXXXX</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DamiTools</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
